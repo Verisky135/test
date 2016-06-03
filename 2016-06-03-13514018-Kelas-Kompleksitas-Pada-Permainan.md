@@ -6,12 +6,15 @@ summary:    Membandingkan kelas kompleksitas.
 categories: tugas
 ---
 <br>
-## Pendahuluan
+#Pendahuluan
+Artikel ini akan membahas kompleksitas dari beberapa permainan, yang umumnya merupakan permainan papan (board game) seperti tic-tac-toe, checkers, dan catur. Selain itu juga membahas kompleksitas komputasinya jika permainan tersebut digeneralisasi.
+
+#Dasar Teori
+
+## Kompleksitas
 Teori kompleksitas komputasi adalah teori yang mengklasifikasikan permasalahan komputasi berdasarkan tingkat kesulitannya dan hubungan dari kelas-kelas tersebut. Permasalahan komputasi dipahami sebagai sebuah masalah yang dapat diselesaikan dengan computer. Permasalahan dapat diselesaikan dengan aplikasi mekanik dari tahap-tahap matematika seperti algoritma.
 
-<br>
-
-## Kelas-Kelas Kompleksitas
+### Kelas-Kelas Kompleksitas
 
 ### Kompleksitas Waktu
 Kompleksitas waktu menunjukan jumlah waktu atau jumlah tahapan yang dibutuhkan suatu komputer untuk menyelesaikan masalah komputasi dengan menggunakan algoritma tertentu.
@@ -55,4 +58,12 @@ Non-deterministik :
 | NPSPACE       | Ruang poly(n)       |
 | NEXPSPACE     | Ruang 2^(poly(n))   |
 
-##
+## Kompleksitas Permainan
+Kompleksitas dari sebuah permainan dapat diukur dengan beberapa cara :
+
+1. State-space complexity
+.State-space complexity adalah jumlah posisi legal yang mungkin dicapai dari posisi awal permainan. Meskipun sulit untuk dihitung secara akurat, upper bound masih dapat dihitung dengan mengikutsertakan posisi ilegal.
+
+2. Game-tree complexity
+.Game-tree complexity adalah jumlah total permainan yang mungkin dimainkan, yaitu jumlah daun dari pohon permainan yang berakar pada posisi awal. Game-tree biasanya lebih besar dari state-space karena sebuah state dari permainan mungkin dicapai dari pergerakan (move) dengan urutan yang berbeda.
+
