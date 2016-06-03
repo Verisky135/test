@@ -15,7 +15,9 @@ Teori kompleksitas komputasi adalah teori yang mengklasifikasikan permasalahan k
 
 ### Kompleksitas Waktu
 Kompleksitas waktu menunjukan jumlah waktu atau jumlah tahapan yang dibutuhkan suatu komputer untuk menyelesaikan masalah komputasi dengan menggunakan algoritma tertentu.
+
 Deterministik :
+
 | Kelas         | Batasan             |
 | ------------- | ------------------- |
 | DTIME         | Waktu f(n)          |
@@ -23,6 +25,7 @@ Deterministik :
 | EXPTIME       | Waktu 2^(poly(n))   |
 
 Non-deterministik :
+
 | Kelas         | Batasan             |
 | ------------- | ------------------- |
 | NTIME         | Waktu f(n)          |
@@ -33,7 +36,9 @@ Non-deterministik :
 
 ### Kompleksitas Ruang
 Kompleksitas ruang menunjukan jumlah total memori yang dibutuhkan suatu komputer untuk menyelesaikan masalah komputasi dengan menggunakan algoritma tertentu.
+
 Deterministik :
+
 | Kelas         | Batasan             |
 | ------------- | ------------------- |
 | DSPACE        | Ruang f(n)          |
@@ -42,6 +47,7 @@ Deterministik :
 | EXPTIME       | Ruang 2^(poly(n))   |
 
 Non-deterministik :
+
 | Kelas         | Batasan             |
 | ------------- | ------------------- |
 | NSPACE        | Ruang f(n)          |
