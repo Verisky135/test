@@ -62,8 +62,10 @@ Non-deterministik :
 Kompleksitas dari sebuah permainan dapat diukur dengan beberapa cara :
 
 1. State-space complexity
-...State-space complexity adalah jumlah posisi legal yang mungkin dicapai dari posisi awal permainan. Meskipun sulit untuk dihitung secara akurat, upper bound masih dapat dihitung dengan mengikutsertakan posisi ilegal.
+<br>
+State-space complexity adalah jumlah posisi legal yang mungkin dicapai dari posisi awal permainan. Meskipun sulit untuk dihitung secara akurat, upper bound masih dapat dihitung dengan mengikutsertakan posisi ilegal.
 
 2. Game-tree complexity
-...Game-tree complexity adalah jumlah total permainan yang mungkin dimainkan, yaitu jumlah daun dari pohon permainan yang berakar pada posisi awal. Game-tree biasanya lebih besar dari state-space karena sebuah state dari permainan mungkin dicapai dari pergerakan (move) dengan urutan yang berbeda.
+<br>
+Game-tree complexity adalah jumlah total permainan yang mungkin dimainkan, yaitu jumlah daun dari pohon permainan yang berakar pada posisi awal. Game-tree biasanya lebih besar dari state-space karena sebuah state dari permainan mungkin dicapai dari pergerakan (move) dengan urutan yang berbeda.
 
